@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/2024-1/Actividad1-Testing" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/2024-1/Actividad1-Testing" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/2024-1/Actividad4-HelloCucumber" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/2024-1/Actividad4-HelloCucumber" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/2024-1/Actividad5-TDD/TDD-1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/2024-1/Actividad5-TDD/TDD-1" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/2024-1/Actividad5-TDD/TDD-2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/2024-1/Actividad5-TDD/TDD-2" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/2024-1/Actividad5-TDD/TDD-3" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/2024-1/Actividad5-TDD/TDD-3" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/2024-1/Actividad6-RGR+TDR" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/2024-1/Actividad6-RGR+TDR" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/2024-1/Actividad7-AnalisisEstatico" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/2024-1/Actividad7-AnalisisEstatico" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
