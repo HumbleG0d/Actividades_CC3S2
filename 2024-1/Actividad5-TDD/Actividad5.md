@@ -92,7 +92,7 @@ public enum Letter {
     }
 ```
 * En la anteior prueba si hacemos pasar como parametro "AC" en vez de "A" y "AB" en vez de "B" , la prueba fallara.
-[](https://github.com/HumbleG0d/Actividades_CC3S2/tree/main/2024-1/Actividad5-TDD/assets/Captura_INCORRECT.png)
+[](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/2024-1/Actividad5-TDD/assets/Captura_INCORRECT.png)
 
 * Para que la prueba unitaria pase tenemos que cambiar la logica del metodo asses de la clase Score.
 ```java
@@ -150,7 +150,7 @@ public enum Letter {
    }
 ```
 Observamos que la prueba unitaria falla.
-[](https://github.com/HumbleG0d/Actividades_CC3S2/tree/main/2024-1/Actividad5-TDD/assets/Captura_PART_CORRECT.png)
+[](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/2024-1/Actividad5-TDD/assets/Captura_PART_CORRECT.png)
 
 * Para que la prueba unitaria pase tenemos que cambiar la logica del metodo asses de la clase Score.
 ```java
@@ -170,5 +170,5 @@ Observamos que la prueba unitaria falla.
    }
 ```
 Finalmente, todas las pruebas unitarias pasan.
-[](https://github.com/HumbleG0d/Actividades_CC3S2/tree/main/2024-1/Actividad5-TDD/assets/Captura_TEST_PASSED.png)
+[](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/2024-1/Actividad5-TDD/assets/Captura_TEST_PASSED.png)
 
