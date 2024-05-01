@@ -14,12 +14,11 @@ public class Money {
         return currency;
     }
     public boolean equals(Object anObject) {
-        if (anObject instanceof Money) {
-            Money money = (Money) anObject;
-            return getCurrency().equals(money.getCurrency())
-                    && getAmount() == money.getAmount();
-        }
+      if (!(anObject instanceof Money money)) {
         return false;
+      }
+      return getCurrency().equals(money.getCurrency())
+              && getAmount() == money.getAmount();
     }
 
 }
