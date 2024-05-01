@@ -33,7 +33,7 @@
 
 
 3. Sea la abstracción POO siguiente:
-   ![](https://github.com/HumbleG0d/Actividades_CC3S2/tree/main/2024-1/Actividad1-Testing/assets/Captura2.png)
+   ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/2024-1/Actividad1-Testing/assets/Captura2.png)
     ¿Como crees que serían las pruebas de los trabajos y la de los gerentes? ¿Por qué preocuparse por las interacciones indirectas?
     
    - Las pruebas de los trabajos y los gerentes serían pruebas unitarias, donde se probarían los métodos de las clases workers y Manager. 
