@@ -2,7 +2,7 @@
 
 ## Actividad 1
 1. Explica el siguiente gráfico en términos de SUT y DOC para pruebas unitarias
-![](https://github.com/HumbleG0d/Actividades_CC3S2/tree/main/2024-1/Actividad1-Testing/assets/Captura.png)
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/2024-1/Actividad1-Testing/assets/Captura.png)
    - Tenemos la clase Test , esta clase es la encargada de realizar las pruebas unitarias a la clase que se quiere probar, supongamos que esta clase tiene un un método getA(valor), esté métedo vendria a ser el SUT que toma una entrada(input) y retorna una salida(output). El método getA(valor) tiene un DOC(métodos que interactuan con el SUT) , supongamos que sea el método getB(valor) que es el encargado de retornar el valor de la variable b, que es un atributo de la clase Test.
     Resuminendo: El gráfico muestra el testing de la clase Test , donde el SUT es un método de dicha clase y el DOC es un método que interactua con el SUT.
  
