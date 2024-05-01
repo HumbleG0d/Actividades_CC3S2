@@ -33,6 +33,7 @@
 
 
 3. Sea la abstracción POO siguiente:
+   
    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/2024-1/Actividad1-Testing/assets/Captura2.png)
     ¿Como crees que serían las pruebas de los trabajos y la de los gerentes? ¿Por qué preocuparse por las interacciones indirectas?
     
@@ -40,7 +41,7 @@
    - Es importante preocuparse por las interacciones indirectas porque estas pueden afectar el comportamiento de los métodos que se están probando. Por ejemplo, si el método de un trabajador depende de un método de un gerente, es importante probar que el método del gerente funciona correctamente para asegurarse de que el método del trabajador también funcione correctamente.
 
 
-4. Completa en la actividad dada en el repositorio el código fuente para pasar las pruebas.
+5. Completa en la actividad dada en el repositorio el código fuente para pasar las pruebas.
 
      ```
    @Test 
@@ -58,7 +59,7 @@
     }
     ```
 
-5.  ¿Cuál es la diferencia entre una prueba unitaria y otros tipos de pruebas, como las pruebas de integración o las pruebas de aceptación?
+6.  ¿Cuál es la diferencia entre una prueba unitaria y otros tipos de pruebas, como las pruebas de integración o las pruebas de aceptación?
 
     - Las pruebas unitarias prueban unidades individuales de código, como métodos o funciones, de forma aislada. Las pruebas de integración prueban cómo interactúan varias unidades de código entre sí. Las pruebas de aceptación prueban si el software cumple con los requisitos del cliente.
 
