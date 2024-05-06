@@ -5,9 +5,9 @@
       Resuminendo: El gráfico muestra el testing de la clase Test , donde el SUT es un método de dicha clase y el DOC es un método que interactua con el SUT.
 
 2. Imaginemos algún servicio financiero (clase FinancialService) que, en función del último pago del cliente y su tipo (cualquiera que sea), calcula algún "bonus".
-   ```
+   ```java
    public class FinancialService {
-    .... // definition of fields and other methods omitted
+    // definition of fields and other methods omitted
     public BigDecimal calculateBonus(long clientId, BigDecimal payment) {
        Short clientType = clientDAO.getClientType(clientId);
        BigDecimal bonus = calculator.calculateBonus(clientType, payment);
@@ -40,7 +40,7 @@
 
 5. Completa en la actividad dada en el repositorio el código fuente para pasar las pruebas.
 
-     ```
+     ```java
    @Test 
    void constructorShouldSetAmountAndCurrency() {
         //Arrange
