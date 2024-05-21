@@ -5,3 +5,5 @@
 - [Actividad5_1-Ritmo_TDD](2024-1/Actividad5-TDD/Actividad5_1.md )
 - [Actividad6-RGR+TDD](2024-1/Actividad6-RGR+TDR/Actividad6.md)
 - [ActividadCalidad](2024-1/ActividadCalidad/ActividadCalidad.md)
+- [ActividadMetricasCalidad](2024-1/ActividadMetricasCalidad/ActividadMetricas.md)
+- [ActividadEstiloCodigo](2024-1/ActividadEstiloCodigo/ActividadEstiloCodigo.md)
