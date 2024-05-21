@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e9af943-f1b1-4eaa-9019-d8f92a3a0300" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/736485b94e10d8188ce52d26cc5810305fac1461" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/3/736485b94e10d8188ce52d26cc5810305fac1461" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/view/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/sonarlint/issuestore/5/9/5934f0a43b5d531d00f7a5d93d6687aa096879d4" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/sonarlint/issuestore/5/9/5934f0a43b5d531d00f7a5d93d6687aa096879d4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/sonarlint/issuestore/d/c/dc10e3a459a4f8702713b62dd9f7538e504bbf9a" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/sonarlint/issuestore/d/c/dc10e3a459a4f8702713b62dd9f7538e504bbf9a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/sonarlint/issuestore/f/2/f2a612a2a5936747ecfcadcdfb421dcf3c7903a7" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/sonarlint/issuestore/f/2/f2a612a2a5936747ecfcadcdfb421dcf3c7903a7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/build/classes/java/main/org/example/Money.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/build/classes/java/main/org/example/Money.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/build/classes/java/test/org/example/MoneyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/build/classes/java/test/org/example/MoneyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/build/reports/tests/test/classes/org.example.MoneyTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/build/reports/tests/test/classes/org.example.MoneyTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/build/reports/tests/test/packages/org.example.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/build/reports/tests/test/packages/org.example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/build/test-results/test/TEST-org.example.MoneyTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/build/test-results/test/TEST-org.example.MoneyTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1-Testing/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1-Testing/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad4-HelloCucumber/.gradle/8.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad4-HelloCucumber/.gradle/8.6/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad4-HelloCucumber/.gradle/8.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad4-HelloCucumber/.gradle/8.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad4-HelloCucumber/.gradle/8.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad4-HelloCucumber/.gradle/8.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad4-HelloCucumber/.gradle/8.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad4-HelloCucumber/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad4-HelloCucumber/.gradle/8.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad4-HelloCucumber/.gradle/8.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad4-HelloCucumber/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad4-HelloCucumber/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad4-HelloCucumber/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad4-HelloCucumber/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad4-HelloCucumber/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad4-HelloCucumber/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad4-HelloCucumber/build/resources/test/skeleton/belly.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad4-HelloCucumber/build/resources/test/skeleton/belly.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-1/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-1/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-1/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-1/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-1/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-1/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-2/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-2/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/classes/java/main/com/wordz/domain/Score.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/classes/java/main/com/wordz/domain/Score.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/classes/java/main/com/wordz/domain/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/classes/java/main/com/wordz/domain/Word.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/classes/java/test/com/wordz/domain/WordTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/classes/java/test/com/wordz/domain/WordTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/reports/tests/test/classes/com.wordz.domain.WordTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/reports/tests/test/classes/com.wordz.domain.WordTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/reports/tests/test/packages/com.wordz.domain.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/reports/tests/test/packages/com.wordz.domain.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/test-results/test/TEST-com.wordz.domain.WordTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/test-results/test/TEST-com.wordz.domain.WordTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad5-TDD/TDD-3/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/7.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/7.4/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/classes/java/main/FootballTeam.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/classes/java/main/FootballTeam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/classes/java/test/FootballTeamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/classes/java/test/FootballTeamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/reports/tests/test/classes/FootballTeamTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/test-results/test/TEST-FootballTeamTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad6-RGR+TDR/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/7.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/7.4/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/src/test/java/microwave/RunCukesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/src/test/java/microwave/RunCukesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/src/test/java/microwave/Stepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad7-AnalisisEstatico/src/test/java/microwave/Stepdefs.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "HumbleG0d"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:HumbleG0d/Actividades_CC3S2.git",
+    "accountId": "f3896f6c-da9f-4243-9216-053a418be434"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2g9XXnV7To1DMcABXTosq53IpG0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.ActividadesRefactor [:Main.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/sergi/OneDrive/Escritorio/Actividades-CC3S2/2024-1/ActividadesRefactor/src/main/java/org/view/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.view.Main" />
+      <module name="ActividadesRefactor.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e9af943-f1b1-4eaa-9019-d8f92a3a0300" name="Changes" comment="" />
+      <created>1715110814384</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715110814384</updated>
+      <workItem from="1715110815790" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/view/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
