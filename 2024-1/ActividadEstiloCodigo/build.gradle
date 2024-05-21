@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id "org.sonarqube" version "5.0.0.4638"
 }
 
 group = 'org.view'
@@ -16,4 +17,15 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+sonar {
+    properties {
+        property "sonar.projectKey", "AnalisisProyecto"
+        property "sonar.projectName", "AnalisisProyecto"
+        property "sonar.host.url", "http://localhost:9000"
+        property "sonar.token", "sqp_1529db85397e370fa4174be7d4174079a3e4778f"
+        property "sonar.java.binaries", "build/classes/java/main"
+        property "sonar.exclusions", "**/*.java"
+    }
 }
