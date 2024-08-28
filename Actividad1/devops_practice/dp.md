@@ -27,6 +27,7 @@ Tambien instalamos la biblioteca `supertest` para las pruebas automatizadas ya q
 ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/supertest.png)
 
 3. **Creamos la estructura de nuestro proyecto**
+
 ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/estructura.png)
 
 4. **Implementación la API REST**
