@@ -71,4 +71,4 @@ Los equipos autónomos y multifuncionales son fundamentales para una implementac
 - **Responsabilidad Compartida:** La cultura de colaboración y responsabilidad compartida facilita un ambiente de trabajo más cohesionado y alineado con los objetivos comunes del equipo.
 
 ## Aplicacion de los conceptos DevOps
-[Documentacion](./devops-practice/dp.md)
+[Documentacion](./devops_practice/dp.md)

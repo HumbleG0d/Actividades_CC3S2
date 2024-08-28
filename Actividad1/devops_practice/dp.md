@@ -165,3 +165,4 @@ Observamos que las prueba pasa. Tambien podemos ejecutar la prueba usando el sig
     ```
 
 
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/build.png)
