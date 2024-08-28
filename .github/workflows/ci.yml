@@ -21,7 +21,7 @@ jobs:
          node-version: 20.11.1
      - name: 'Install dependencies'
        run: npm ci
-       working-directory: ./Actividad1/devops-practice/
+       working-directory: ./Actividad1/devops_practice/
      - name: 'Run test'
        run:  npx jest --verbose
-       working-directory: ./Actividad1/devops-practice/
+       working-directory: ./Actividad1/devops_practice/
