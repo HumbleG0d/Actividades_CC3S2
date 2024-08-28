@@ -27,6 +27,8 @@ jobs:
        working-directory: ./Actividad1/devops_practice/
      - name: 'Buil Docker image'
        run: docker build -t devops_practice .
+       working-directory: ./Actividad1/devops_practice/
      - name: 'Run Docker container'
+       working-directory: ./Actividad1/devops_practice/
        run: docker run -d -p 3000:3000 devops_practice
       
