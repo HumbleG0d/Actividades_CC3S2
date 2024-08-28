@@ -90,6 +90,7 @@ Creamos una aplicación web basica `app.js`. Esta aplicación muestra el texto `
 
 6. **Modificamos el archivo package.json**
 Cambiamos el valor de `"test": "jest"` , además agregamos `"devDependencies"` dentro de esta colocamos la version de `"supertest"`.
+
 ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/package.png)
 
 7. **Ejecucion del test y el servidor**
@@ -111,6 +112,7 @@ Observamos que las prueba pasa. Tambien podemos ejecutar la prueba usando el sig
 ### Pipeline CI/CD
 
 1. **Creamos la estructura para GitHub Actions**
+
 ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/githubAc.png)
 
 2. **Definimos el flujo de trabajo**
