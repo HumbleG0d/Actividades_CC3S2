@@ -169,3 +169,90 @@ Observamos que las prueba pasa. Tambien podemos ejecutar la prueba usando el sig
 
 
 ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/build.png)
+
+### Configuracion del entorno CD
+
+1. **Crea un archivo Docker para contenerizar la aplicación**
+    Creamos un Dockerfile para crear una imagen de Docker para nuestra aplicación.
+
+    - Utilizamos la imagen ofcial de Node.js version 20 con la instrucción `Fron node:20`.
+    - Establcemos un directorio de trabajo en  `app` con la instrucción  `WORKDIR /app`.
+    - Copiamos los archivos de dependencias con la instrcción  `COPY` y luego instalamos las dependecias necesarias con la instrucción  `RUN`.
+    - Exponemos el puerto 3000 para la aplicación con la instrucción  `EXPOSE`
+    - Finalmente ejecutamos el servidor de la aplicación con  `node src/server.js` cuando se inicial el contenedor.
+
+    ```yml
+        FROM node:20
+
+        WORKDIR /app
+
+        COPY package*.json ./
+
+        RUN npm install
+
+        COPY . .
+
+        EXPOSE 3000
+
+        CMD ["node", "src/server.js"]
+    ```
+2. **Construimos la imagen de Docker**
+Para ello hacemos uso del siguiente comando.
+    ```shell
+        docker build -t devops_practice .
+    ```
+
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/dockerBuild.png)
+
+
+3. **Corremos el contenedor localmente**
+Para ello hacemos uso del siguiente comando.
+ 
+    ```shell
+         docker run -p 3000:3000 devops_practice
+    ```
+
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/dockerRun.png)
+
+
+### Automatización del despliegue con GitHub Actions:
+1. **Actualizamos el archivo `ci.yml`**
+    Agregamos la construcción y despliegue de la imagen docker
+    ```yml
+        - name: 'Buil Docker image'
+        run: docker build -t devops_practice .
+        - name: 'Run Docker container'
+        run: docker run -d -p 3000:3000 devops_practice
+    ```
+
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/GitHubDoc.png)
+
+2. **Verificamos que la aplicación se haya desplegado correctamente de manera local usando Docker**
+Para ello accedemos a `http://localhost:3000` en nuestro browser.
+
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/localhost.png)
+
+### Automatización
+1. **Automatizamos la configuración y gestión del entorno local usando Docker Compose**
+Para ello creamos una archivo `docker-compose.yml`. 
+- En este archivo definimos la version de Docker Compose con la clave `version` 
+- Construimos la imagen usando el Dockerfile en el directorio actual con la clave `build: .`
+- Mapeamos el puerto 3000 del host al puerto 3000 del contenedor
+- Definimos la variable de entorno para el contenedor con la clave `environments`
+    ```yml
+        version: '3.8'
+        services:
+            app:
+            build: .
+            posrts:
+            - "3000:3000"
+            environment:
+            - NODE_ENV=production
+    ```
+2. **Corremos la aplicacion usando Docker Compose**
+Para ello ejecutamos el siguiente comando:
+    ```shell
+    docker-compose up --build -d
+    ```
+
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/DockerCompose.png)
