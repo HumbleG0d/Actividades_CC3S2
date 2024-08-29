@@ -1,37 +1,41 @@
 ## Creancion del entor CI / CD
 ### Configuracion del entorno CI
 1. **Iniciamos el proyecto Node.js**
-Creamos nuestra carpeta `devops_practice` , dentro de ella ejecutamos el comando
+
+    Creamos nuestra carpeta `devops_practice` , dentro de ella ejecutamos el comando
 
     ```shell
     npm init -y
     ```
     para iniciar nuestro proyecto.
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/init.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/init.png)
 
 2. **Instalación de las dependencias necesarias**
-Instalamos el framework `Express` de Node y tambien `Jest` para las pruebas.
+
+    Instalamos el framework `Express` de Node y tambien `Jest` para las pruebas.
 
     ```shell
      npm install express jest 
     ```
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/express.png)
 
-Tambien instalamos la biblioteca `supertest` para las pruebas automatizadas ya que usamos Express.
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/express.png)
 
-```shell
-    npm install supertest --save-dev
-```
+    Tambien instalamos la biblioteca `supertest` para las pruebas automatizadas ya que usamos Express.
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/supertest.png)
+    ```shell
+        npm install supertest --save-dev
+    ```
+
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/supertest.png)
 
 3. **Creamos la estructura de nuestro proyecto**
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/estructura.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/estructura.png)
 
 4. **Implementación la API REST**
-Creamos una aplicación web basica `app.js`. Esta aplicación muestra el texto `Hello World` al recibir una solicitud  **GET**.
+
+    Creamos una aplicación web basica `app.js`. Esta aplicación muestra el texto `Hello World` al recibir una solicitud  **GET**.
 
     ```js
     const express = require('express');
@@ -89,12 +93,14 @@ Creamos una aplicación web basica `app.js`. Esta aplicación muestra el texto `
         ```
 
 6. **Modificamos el archivo package.json**
-Cambiamos el valor de `"test": "jest"` , además agregamos `"devDependencies"` dentro de esta colocamos la version de `"supertest"`.
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/package.png)
+    Cambiamos el valor de `"test": "jest"` , además agregamos `"devDependencies"` dentro de esta colocamos la version de `"supertest"`.
+
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/package.png)
 
 7. **Ejecucion del test y el servidor**
-Observamos que las prueba pasa. Tambien podemos ejecutar la prueba usando el siguiente comando
+
+    Observamos que las prueba pasa. Tambien podemos ejecutar la prueba usando el siguiente comando
     ```shell
         npx jest
     ```
@@ -113,7 +119,7 @@ Observamos que las prueba pasa. Tambien podemos ejecutar la prueba usando el sig
 
 1. **Creamos la estructura para GitHub Actions**
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/githubAc.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/githubAc.png)
 
 2. **Definimos el flujo de trabajo**
 
@@ -168,11 +174,12 @@ Observamos que las prueba pasa. Tambien podemos ejecutar la prueba usando el sig
     ```
 
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/build.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/build.png)
 
 ### Configuracion del entorno CD
 
 1. **Crea un archivo Docker para contenerizar la aplicación**
+    
     Creamos un Dockerfile para crear una imagen de Docker para nuestra aplicación.
 
     - Utilizamos la imagen ofcial de Node.js version 20 con la instrucción `Fron node:20`.
@@ -197,27 +204,31 @@ Observamos que las prueba pasa. Tambien podemos ejecutar la prueba usando el sig
         CMD ["node", "src/server.js"]
     ```
 2. **Construimos la imagen de Docker**
-Para ello hacemos uso del siguiente comando.
+
+    Para ello hacemos uso del siguiente comando.
     ```shell
         docker build -t devops_practice .
     ```
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/dockerBuild.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/dockerBuild.png)
 
 
 3. **Corremos el contenedor localmente**
-Para ello hacemos uso del siguiente comando.
+
+    Para ello hacemos uso del siguiente comando.
  
     ```shell
          docker run -p 3000:3000 devops_practice
     ```
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/dockerRun.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/dockerRun.png)
 
 
 ### Automatización del despliegue con GitHub Actions:
 1. **Actualizamos el archivo `ci.yml`**
+
     Agregamos la construcción y despliegue de la imagen docker
+    
     ```yml
         - name: 'Buil Docker image'
         run: docker build -t devops_practice .
@@ -225,20 +236,23 @@ Para ello hacemos uso del siguiente comando.
         run: docker run -d -p 3000:3000 devops_practice
     ```
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/GitHubDoc.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/GitHubDoc.png)
 
 2. **Verificamos que la aplicación se haya desplegado correctamente de manera local usando Docker**
-Para ello accedemos a `http://localhost:3000` en nuestro browser.
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/localhost.png)
+    Para ello accedemos a `http://localhost:3000` en nuestro browser.
+
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/localhost.png)
 
 ### Automatización
 1. **Automatizamos la configuración y gestión del entorno local usando Docker Compose**
-Para ello creamos una archivo `docker-compose.yml`. 
-- En este archivo definimos la version de Docker Compose con la clave `version` 
-- Construimos la imagen usando el Dockerfile en el directorio actual con la clave `build: .`
-- Mapeamos el puerto 3000 del host al puerto 3000 del contenedor
-- Definimos la variable de entorno para el contenedor con la clave `environments`
+
+    Para ello creamos una archivo `docker-compose.yml`. 
+    - En este archivo definimos la version de Docker Compose con la clave `version` 
+    - Construimos la imagen usando el Dockerfile en el directorio actual con la clave `build: .`
+    - Mapeamos el puerto 3000 del host al puerto 3000 del contenedor
+    - Definimos la variable de entorno para el contenedor con la clave `environments`
+
     ```yml
         version: '3.8'
         services:
@@ -250,9 +264,12 @@ Para ello creamos una archivo `docker-compose.yml`.
             - NODE_ENV=production
     ```
 2. **Corremos la aplicacion usando Docker Compose**
-Para ello ejecutamos el siguiente comando:
+
+    Para ello ejecutamos el siguiente comando:
     ```shell
     docker-compose up --build -d
     ```
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/DockerCompose.png)
+    Observamos se crearon correctamente las imágenes necesarias y se levanto correctamente el contenedor definido en nuestro archivo  `docker-compose.yml`
+
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/DockerCompose.png)
