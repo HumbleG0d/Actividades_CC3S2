@@ -34,17 +34,28 @@
 
 4. **Implementación la API REST**
 
-    Creamos una aplicación web basica `app.js`. Esta aplicación muestra el texto `Hello World` al recibir una solicitud  **GET**.
+    Creamos una aplicación web basica `app.js`. Esta aplicación expondra metricas a Prometheus.
+    Estas metricas son proporcionadas por el sistema en el que se esta ejecutando el código.Estas metricas se mostraran cuando hacemos una solicitud **HTTP GET** a `/metrics`.
 
     ```js
+    const client = require('prom-client');
     const express = require('express');
     const app = express();
 
-    app.get('/', (req, res) => {
-        res.send('Hello World');
+    const collectDefaultMetrics = client.collectDefaultMetrics;
+    collectDefaultMetrics();
+
+    app.get('/metrics', async (req, res) => {
+        try {
+        res.set('Content-Type', client.register.contentType);
+        const metrics = await client.register.metrics(); // Espera la resolución de la promesa
+        res.end(metrics);
+        } catch (error) {
+        res.status(500).end(error.message); // Manejo de errores
+        }
     });
 
-    module.exports = app; 
+    module.exports = app;
     ```
     Inciamos un servidor `server.js` para nuestra aplicación. En este servidor definimos el puerto 3000 para que la aplicación escuche. Mostramos un mensaje para confirmar que el servidor está funcionando y en que puerto está escuchando.
 
@@ -181,12 +192,13 @@
     ```
 
 
-    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/build.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/build.png)
 
-### Configuracion del entorno CD
 
-1. **Crea un archivo Docker para contenerizar la aplicación**
-    
+3. **Implementación de Infraestructura como Código (IaC)**
+
+    Usamos Docker para contenerizar la aplicación:
+
     Creamos un Dockerfile para crear una imagen de Docker para nuestra aplicación.
 
     - Utilizamos la imagen ofcial de Node.js version 20 con la instrucción `Fron node:20`.
@@ -195,21 +207,21 @@
     - Exponemos el puerto 3000 para la aplicación con la instrucción  `EXPOSE`
     - Finalmente ejecutamos el servidor de la aplicación con  `node src/server.js` cuando se inicial el contenedor.
 
-    ```yml
-        FROM node:20
+        ```yml
+            FROM node:20
 
-        WORKDIR /app
+            WORKDIR /app
 
-        COPY package*.json ./
+            COPY package*.json ./
 
-        RUN npm install
+            RUN npm install
 
-        COPY . .
+            COPY . .
 
-        EXPOSE 3000
+            EXPOSE 3000
 
-        CMD ["node", "src/server.js"]
-    ```
+            CMD ["node", "src/server.js"]
+        ```
 2. **Construimos la imagen de Docker**
 
     Para ello hacemos uso del siguiente comando.
@@ -217,7 +229,7 @@
         docker build -t devops_practice .
     ```
 
-    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/dockerBuild.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/dockerBuild.png)
 
 
 3. **Corremos el contenedor localmente**
@@ -228,30 +240,11 @@
          docker run -p 3000:3000 devops_practice
     ```
 
-    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/dockerRun.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/dockerRun.png)
 
 
-### Automatización del despliegue con GitHub Actions:
-1. **Actualizamos el archivo `ci.yml`**
+### Automatización de la gestión de contenedores usando Docker Compose:
 
-    Agregamos la construcción y despliegue de la imagen docker
-    
-    ```yml
-        - name: 'Buil Docker image'
-        run: docker build -t devops_practice .
-        - name: 'Run Docker container'
-        run: docker run -d -p 3000:3000 devops_practice
-    ```
-
-    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/GitHubDoc.png)
-
-2. **Verificamos que la aplicación se haya desplegado correctamente de manera local usando Docker**
-
-    Para ello accedemos a `http://localhost:3000` en nuestro browser.
-
-    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/localhost.png)
-
-### Automatización
 1. **Automatizamos la configuración y gestión del entorno local usando Docker Compose**
 
     Para ello creamos una archivo `docker-compose.yml`. 
@@ -261,7 +254,6 @@
     - Definimos la variable de entorno para el contenedor con la clave `environments`
 
     ```yml
-        version: '3.8'
         services:
             app:
             build: .
@@ -279,4 +271,54 @@
 
     Observamos se crearon correctamente las imágenes necesarias y se levanto correctamente el contenedor definido en nuestro archivo  `docker-compose.yml`
 
-    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad1/assets/DockerCompose.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/dockerCompose.png)
+
+### Implementación de Observabilidad
+
+1. **Configuración de Prometheus y Grafana para monitorear la aplicación**
+
+    - Creamos un archivo prometheus.yml para configurar Prometheus:
+
+        ```yml
+           global:
+            scrape_interval: 15s
+           scrape_configs:
+            - job_name: 'node-app'
+             static_configs:
+              - targets: ['app:3000']
+        ```
+2. **Configurando Grafana utilizando un docker-compose.yml actualizado**
+
+    Agregamos la configuracón de prometheus y grafana a nuestro docker-compose.
+
+    ```yml
+        prometheus:
+         image: prom/prometheus
+         volumes:
+          - ./prometheus.yml:/etc/prometheus/prometheus.yml
+         ports:
+          - "9090:9090"
+        grafana:
+         image: grafana/grafana
+         ports:
+          - "3001:3000"
+    ```
+    Corremos la aplicacion usando Docker Compose.Observamos que nuestros tres contenedores fueron creado correctamente.
+
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/promeGrafana.png)
+
+    Para verificar que todo esta correcto no dirigimos a `http://localhost:9090/targets?search= `.
+
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/prometheus.png)
+
+    Finalmente accedemos a Grafana , para ello nos dirigimos a `http://localhost:3031` , ingresamos las credenciales por defecto que son **admin** tanto para username como para password. Luego creamos nuestra conexión con prometheus , para ello ingresamos el URL del server de prometheus que es `http://prometheus:9090`. 
+
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/conecctionPro.png)
+
+    Finalmente nos dirigimos a la parte de explore y nos mostrara las graficas de las métricas.
+
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/grafana.png)
+
+    
+
+
