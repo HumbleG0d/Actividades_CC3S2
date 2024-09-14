@@ -92,7 +92,7 @@ complicaciones.
     cd scrum-workflow
     ```
 
-    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/mkdir.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/mkdir.png)
 
     Creamos el archivo `mainfile.md` , lo modificamos , agregamos los cambios al área de preparación y finalmente guardamos los cambios
 
@@ -102,7 +102,7 @@ complicaciones.
     git commit -m "Commit inicial en main"
     ```
 
-    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/inicialCommit.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/inicialCommit.png)
 
 
     Creamos la rama `feature` y nos movemos a ella . En ensa rama creamos el archivo `featurefil.md` , modificamos este archivo , luego agreamos los cambios al área de preparación y finalmente  guardamos los cambios.
@@ -114,7 +114,7 @@ complicaciones.
     git commit -m "Commit en feature"
     ```
 
-    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/commitFeature.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/commitFeature.png)
 
 
     Regresamos a la rama `main`. Actualizamos el archivo `mainfile.md`.
@@ -126,7 +126,7 @@ complicaciones.
     git commit -m "Actualización en main"
     ```
 
-    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/updateMain.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/updateMain.png)
 
 
     Regresamos a la rama `feature` , hacemos un **rebase** , regresamos a la rama `main` y finalmente para mantener el historial lineal hacemos uso del comando `git merge feature --ff-only`.
@@ -138,7 +138,7 @@ complicaciones.
     git merge feature --ff-only
     ```
 
-    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/rebase.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/rebase.png)
 
 
 2. **Cherry-pick para integración selectiva en un pipeline CI/CD**
@@ -172,7 +172,7 @@ complicaciones.
     git commit -m "Commit inicial en main"
     ```
 
-    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/conMainCID.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/conMainCID.png)
 
 
     Creamos y nos movemos a la rama `feature` , dentro de esta creamos el archivo `feature1.md` modificamos este archivo , luego agreamos los cambios al área de preparación y finalmente  guardamos los cambios.
@@ -184,7 +184,7 @@ complicaciones.
     git commit -m "Agregar primera característica"
     ```
 
-    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/feature1Com.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/feature1Com.png)
 
 
     Creamos otro archivo `feature2.md` modificamos este archivo , luego agreamos los cambios al área de preparación y finalmente  guardamos los cambios.
@@ -195,7 +195,7 @@ complicaciones.
     git commit -m "Agregar segunda característica"
     ```
 
-    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/feature2Com.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/feature2Com.png)
 
 
     Nos movemos a la rama `main` y hacemos `cherry-pick` de los commits realizados en la rama `feature`.Con este comando lo que hacemos es traer los commits de la rama `feature` a nuestra rama `main`.
@@ -206,6 +206,6 @@ complicaciones.
     git cherry-pick <hash_del_commit2>
     ```
 
-    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/cherryPick.png)
+    ![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/cherryPick.png)
 
     [Git, Scrum y Sprints](ac5Sprints.md)
