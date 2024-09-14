@@ -25,7 +25,7 @@ git add README.md
 git commit -m "Commit inicial en main"
 ```
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/initialScrum.png)
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/initialScrum.png)
 
 Creamos ramas de historia de usuario
 
@@ -34,7 +34,7 @@ git checkout -b feature-user-story-1
 git checkout -b feature-user-story-2
 ```
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/branchFeatures.png)
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/branchFeatures.png)
 
 
 **Pregunta:** ¿Por qué es importante trabajar en ramas de funcionalidades separadas durante un sprint?
@@ -66,7 +66,7 @@ git add updates.md
 git commit -m "Actualizar main con nuevas funcionalidades"
 ```
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/mainUpdate.png)
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/mainUpdate.png)
 
 Rebase de la rama `feature-user-story-1` sobre `main`
 
@@ -75,7 +75,7 @@ git checkout feature-user-story-1
 git rebase main
 ```
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/rebaseMain.png)
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/rebaseMain.png)
 
 **Pregunta:** ¿Qué ventajas proporciona el rebase durante el desarrollo de un sprint en términos de
 integración continua?
@@ -120,7 +120,7 @@ git add progress.md
 git commit -m "Funcionalidad aún en progreso"
 ```
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/feature2Cherry.png)
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/feature2Cherry.png)
 
 
 Seleccionamos el commit que este listo para traerlo a nuestra rama `main`.
@@ -130,7 +130,7 @@ git checkout main
 git cherry-pick <hash_del_commit_de_feature-lista>
 ```
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/cherryFeatur2.png)
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/cherryFeatur2.png)
 
 
 **Pregunta:** ¿Cómo ayuda git cherry-pick a mostrar avances de forma selectiva en un sprint review?
@@ -163,7 +163,7 @@ git add conflicted-file.md
 git commit -m "Cambio en feature 1"
 ```
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/checkoutF1.png)
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/checkoutF1.png)
 
 Nos movemos a la rama `feature-user-story-2` , creamos y modificamos el archivo `conflicted-file.md` finalmente guardamos los cambios.
 
@@ -174,7 +174,7 @@ git add conflicted-file.md
 git commit -m "Cambio en feature 2"
 ```
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/checkoutF2.png)
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/checkoutF2.png)
 
 
 Mergeamos las ramas `feature-user-story-1` , `feature-user-story-2` 
@@ -185,7 +185,7 @@ git merge feature-user-story-1
 git merge feature-user-story-2
 ```
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/merge2.png)
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/merge2.png)
 
 **Pregunta :** ¿Cómo manejas los conflictos de fusión al final de un sprint? ¿Cómo puede el equipo mejorar la comunicación para evitar conflictos grandes?
 
@@ -242,9 +242,9 @@ git fetch origin main
 git rebase origin/main
 ```
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/prePush.png)
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/prePush.png)
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/prePushFile.png)
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/prePushFile.png)
 
 
 Simulación de cambios y haz push
@@ -258,7 +258,7 @@ git commit -m "Cambios importantes en feature 1"
 git push origin feature-user-story-1
 ```
 
-![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad2/assets/pushFail.png)
+![](https://github.com/HumbleG0d/Actividades_CC3S2/blob/main/Actividad5/assets/pushFail.png)
 
 
 **Pregunta:** Qué ventajas y desventajas observas al automatizar el rebase en un entorno de CI/CD?.
